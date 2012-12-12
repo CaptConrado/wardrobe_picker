@@ -1,0 +1,39 @@
+<h1>Listing outfits</h1>
+
+<table>
+  <tr>
+    <th>Hat name</th>
+    <th>Top name</th>
+    <th>Pants name</th>
+    
+ 
+
+<% @outfits.each do |outfit| %>
+
+    <td><div class="outfitt">
+    <%= outfit.hat_name %>
+    <br>
+    <%= outfit.top_name %>
+    <br>
+    <%= outfit.pants_name %>
+    
+
+    
+<div class="btn_bottom">
+<div class="btn-group">
+  <button class="btn"><%= link_to 'Show', outfit %></button>
+  <button class="btn"><%= link_to 'Edit', edit_outfit_path(outfit) %></button>
+  <button class="btn"> <%= link_to 'Destroy', outfit, method: :delete, data: { confirm: 'Are you sure?' } %></button>
+</div>
+</div>
+</div>
+    </td>
+    
+   
+  
+<% end %>
+
+</table>
+
+
+<%= link_to 'New Outfit', new_outfit_path %>

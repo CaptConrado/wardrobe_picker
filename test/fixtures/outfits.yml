@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  hat_name: MyString
+  top_name: MyString
+  pants_name: MyString
+
+two:
+  hat_name: MyString
+  top_name: MyString
+  pants_name: MyString
