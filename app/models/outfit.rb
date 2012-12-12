@@ -5,6 +5,7 @@ class Outfit < ActiveRecord::Base
 
   def random!
   	shirts = "red,yellow,green,blue,yellow,maroon,black,white,navy".split(',')
+  	#shirts = ['red'yellow,green,blue,yellow,maroon,black,white,navy]
   	self.top_name = shirts.sample
 
   	pants = "jeans,slacks,khakis,slacks,shorts".split(',')
@@ -15,3 +16,4 @@ class Outfit < ActiveRecord::Base
 
   end
 end
+
