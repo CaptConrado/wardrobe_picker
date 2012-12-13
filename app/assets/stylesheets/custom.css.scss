@@ -11,7 +11,7 @@ html {
 body {
   padding-top: 60px;
 
-  background-image:url('http://www.unsigneddesign.com/Seamless_background_textures/1200px/seamlesstexture2_1200.jpg');
+  background-image:url('http://www.unsigneddesign.com/Seamless_background_textures/1200px/seamlesstexture2_1200.jg');
 }
 
 section {
@@ -33,25 +33,16 @@ textarea {
 }
 
 
- .outfitt{
+.card {
+	
+	background-color: #EEE;
+	height: 372px;
+	width: 212px;
+	border-radius:15px;
 
- background-color: #00BFFF;
- height: 372px;
- width: 212px;
- border-radius:15px;
- padding:10px 40px 40px 40px; 
- margin-top:100px;
-margin-bottom:100px;
-margin-right:50px;
-margin-left:50px;
-
-
- }
-
- .btn_bottom{
- 	margin-top: 5px;
+	margin:20px;
 
 
 
+}
 
- }
