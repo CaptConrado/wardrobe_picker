@@ -12,8 +12,21 @@ class Outfit < ActiveRecord::Base
   	self.pants_name = pants.sample
 
 
-
-
   end
+
+
+  def weather(hat_name)
+
+  	if temp > 56 
+  		puts "its warm"
+  	else
+  		puts "cold"
+  	end
+  end
+
+
+
+
+
 end
 
