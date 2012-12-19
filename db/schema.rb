@@ -11,15 +11,9 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121219013153) do
+ActiveRecord::Schema.define(:version => 20121219033030) do
 
-  create_table "outfits", :force => true do |t|
-    t.string   "hat_name"
-    t.string   "top_name"
-    t.string   "pants_name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.integer  "weather"
-  end
+# Could not dump table "outfits" because of following StandardError
+#   Unknown type 'str' for column 'jacket_name'
 
 end

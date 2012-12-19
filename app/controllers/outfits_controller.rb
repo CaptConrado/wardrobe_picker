@@ -1,6 +1,6 @@
 class OutfitsController < ApplicationController
   # GET /outfits
-  # GET /outfits.json
+  
   def index
     @outfits = Outfit.all
 
