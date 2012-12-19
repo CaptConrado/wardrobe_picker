@@ -7,18 +7,20 @@
         <div class="span3">
           <div class="card">
 
-             <% if outfit.hat_name == "56" %>
+             <% if outfit.weather == 56 %>
                 <h1>Hooolllaa</h1>
                 <% else %>
                 <h2>Yo</h2>
               <% end %>
-
+            
 
            <h3> <%= outfit.hat_name %><br>
             
             <%= outfit.top_name %><br>
             
             <%= outfit.pants_name %><br>
+
+            <%= outfit.weather %><br>
            </h3>    
             
 

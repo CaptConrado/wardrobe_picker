@@ -1,6 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <b>Temprature name:</b>
+  <%= @outfit.weather %>
+</p>
+
+
+<p>
   <b>Hat name:</b>
   <%= @outfit.hat_name %>
 </p>
@@ -14,6 +20,8 @@
   <b>Pants name:</b>
   <%= @outfit.pants_name %>
 </p>
+
+
 
 
 <%= link_to 'Edit', edit_outfit_path(@outfit) %> |

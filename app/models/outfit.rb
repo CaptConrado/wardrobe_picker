@@ -1,5 +1,5 @@
 class Outfit < ActiveRecord::Base
-  attr_accessible :hat_name, :pants_name, :top_name
+  attr_accessible :hat_name, :pants_name, :top_name, :weather 
 
 
 
@@ -15,7 +15,7 @@ class Outfit < ActiveRecord::Base
   end
 
 
-  def weather(hat_name)
+  def temp(weather)
 
   	if temp > 56 
   		puts "its warm"
